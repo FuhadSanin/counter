@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    width: 100%;
+    height: fit-content;
+    color: rgb(255, 166, 0);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.data{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 150px;
+}
+
+.data button{
+    width: 150px;
+    height: 150px;
+    font-size: 80px;
+    background-color: #000000;
+    color: rgb(255, 166, 0);
+    border-radius: 10px;
+    border: none;
+    transition-duration: 0.4s;
+
+}
+.data button:hover{
+    background-color: #1e1e1e;
+    color: rgb(196, 128, 0);
+    font-size: 110px;
+}
+.data h1{
+    font-size: 120px;
+    color: white;
+    cursor: none;
+}
